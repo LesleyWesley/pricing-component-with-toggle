@@ -12,14 +12,21 @@ body {
   margin: 0;
   background-image: url("../images/bg-top.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: 155px;
-  background-position-y: -50px;
+  background-size: contain;
+  background-position-x: 210px;
+  background-position-y: -25px;
+}
+
+main {
+  width: 90%;
+  padding-top: 50px;
 }
 
 h1 {
   text-align: center;
 }
+
+/* Toggle Styling */
 
 .toggle-section {
   display: flex;
@@ -71,4 +78,83 @@ h1 {
   -webkit-transform: translateX(34px);
   -ms-transform: translateX(34px);
   transform: translateX(34px);
+}
+
+/* Card Styling */
+
+.card {
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0px 15px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.05)
+}
+
+h2 {
+  font-size: 1.25em;
+  margin: 0;
+}
+
+h3 {
+  color: #494C5F;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 15px 0;
+}
+
+h3 span {
+  font-size: 2.25em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #dcdcdc;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+li {
+  padding: 20px 0;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+  padding: 15px 0;
+  background: linear-gradient(90deg, #A3A8F0, #696FDD);
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.professional {
+  background-image: linear-gradient(125deg, #A3A8F0, #696FDD);
+}
+
+.professional h2 {
+  color: #F6F6FE;
+}
+
+.professional h3 {
+  color: #FFF;
+}
+
+.professional li {
+  color: #F6F6FE;
+}
+
+.professional a {
+  background: #FFF;
+  color: #696FDD;
 }

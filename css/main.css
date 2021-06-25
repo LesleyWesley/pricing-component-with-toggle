@@ -96,7 +96,7 @@ h1 {
   padding: 30px;
   border-radius: 15px;
   min-width: 275px;
-  max-width: 350px;
+  max-width: 300px;
   box-shadow: 0 0px 15px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.05)
 }
 
@@ -163,4 +163,43 @@ a {
 .professional a {
   background: #FFF;
   color: #696FDD;
+}
+
+@media (min-width: 1024px) {
+
+  body {
+    background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+    background-size: auto auto;
+    background-position: top right, bottom left;
+    padding: 40px 0px;
+  }
+
+  main {
+    flex-direction: row;
+    padding-top: 25px;
+  }
+
+  .switch {
+    width: 55px;
+    height: 30px;
+  }
+
+  .ball {
+    height: 24px;
+    width: 24px;
+  }
+
+  .professional{
+    padding: 50px 30px;
+  }
+
+  .basic {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .master {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
 }

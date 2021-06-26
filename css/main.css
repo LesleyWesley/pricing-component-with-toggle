@@ -84,9 +84,9 @@ h1 {
 }
 
 .ball.move-right {
-  -webkit-transform: translateX(34px);
-  -ms-transform: translateX(34px);
-  transform: translateX(34px);
+  -webkit-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  transform: translateX(25px);
 }
 
 /* Card Styling */

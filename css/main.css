@@ -63,9 +63,14 @@ h1 {
   display: inline-block;
   width: 45px;
   height: 27px;
-  background-image: linear-gradient(90deg, #A3A8F0, #696FDD);
+  background: linear-gradient(90deg, #A3A8F0, #696FDD);
   border-radius: 34px;
 }
+
+.switch:hover {
+  background: #A3A8F0;
+}
+
 
 .ball {
   position: absolute;
@@ -144,6 +149,13 @@ a {
   border-radius: 5px;
 }
 
+.basic a:hover,
+.master a:hover {
+  color: #696FDD;
+  border: 1px solid #494C5F;
+  background: #FFF;
+}
+
 .professional {
   background-image: linear-gradient(125deg, #A3A8F0, #696FDD);
 }
@@ -164,6 +176,14 @@ a {
   background: #FFF;
   color: #696FDD;
 }
+
+.professional a:hover {
+  color: #FFF;
+  background: linear-gradient(90deg, #A3A8F0, #696FDD);
+  border: 1px solid #FFF;
+}
+
+
 
 @media (min-width: 1024px) {
 

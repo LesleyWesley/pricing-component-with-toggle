@@ -84,9 +84,9 @@ h1 {
 }
 
 .ball.move-right {
-  -webkit-transform: translateX(25px);
-  -ms-transform: translateX(25px);
-  transform: translateX(25px);
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
 }
 
 /* Card Styling */
@@ -147,6 +147,7 @@ a {
   color: #FFF;
   font-size: 1em;
   border-radius: 5px;
+  border: 1px solid;
 }
 
 .basic a:hover,
@@ -207,6 +208,12 @@ a {
   .ball {
     height: 24px;
     width: 24px;
+  }
+
+  .ball.move-right {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
   }
 
   .professional{
